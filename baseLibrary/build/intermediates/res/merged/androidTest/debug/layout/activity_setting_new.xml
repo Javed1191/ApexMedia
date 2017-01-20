@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+         />
+
+    <ScrollView
+        android:id="@+id/svBatchPreparationEnd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="8" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bnnr"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Server Instance"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_ServerInstance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Server Instance"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="117.218.30.14"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Sql_Instance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="SQL Instance"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_SQLInstance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter SQL Instance"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="117.218.30.14"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Entity Code"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_EntCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Entity Code"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="MH"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Handler"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_Handler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Handler"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="AIMSWS"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Financial Year"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_FyrCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Financial Year"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="2018sp"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Location Code"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_LocCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Location Code"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="MH"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/txt_Server_Instance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="ExoRegular.otf"
+                    android:gravity="center|left"
+                    android:text="Interface"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_Interface"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="ExoRegular.otf"
+                    android:hint="Enter Interface"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="AIMSAPI"
+                    android:textColor="#000000"
+                    android:textColorHint="#AFAFAF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:id="@+id/btn_Save"
+                    style="@style/btnStyleBlue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:text="Save"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="@style/btnStyleBlue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:text="Cancel"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

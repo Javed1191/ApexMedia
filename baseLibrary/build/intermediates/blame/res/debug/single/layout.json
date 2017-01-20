@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_email_setting.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_email_setting.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\superactivitytoast_progresscircle.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_progresscircle.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\supercardtoast_progresscircle.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_progresscircle.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_info_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_user_info_.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\supercardtoast_button.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_button.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_rows.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\spinner_rows.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\menu_layout.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\menu_layout.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\dummy_layout.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\dummy_layout.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\datetimepicker.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\datetimepicker.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\superactivitytoast_progresshorizontal.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_progresshorizontal.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\supercardtoast.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_help_.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_new.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_setting_new.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_login_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_new_login_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\temp_login.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\temp_login.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\supercardtoast_progresshorizontal.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_progresshorizontal.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\reminder_picker.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\reminder_picker.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_login_screen_updated.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\activity_new_login_screen_updated.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\autotextlistviewrow.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\autotextlistviewrow.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\checkbox_row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\checkbox_row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\supertoast.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supertoast.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\user_row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\layout\\user_row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\debug\\layout\\superactivitytoast_button.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_button.xml"
+    }
+]

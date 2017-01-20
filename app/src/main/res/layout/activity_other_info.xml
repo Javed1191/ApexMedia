@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.oneaxcess.RegistrationActivity">
+
+    <com.custom.baselibrary.CustomText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="fonts/OmnesMed.ttf"
+        android:inputType="textCapWords"
+        android:text="LOGIN"
+        android:textColor="#0047ab"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Hobbeis"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:id="@+id/edt_hobbies"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_back"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:inputType="textCapWords"
+                            android:padding="10dp"
+                            android:windowSoftInputMode="adjustPan" />
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_hobbies_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Hobbeis"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Sports"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:id="@+id/edt_sports"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_back"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:inputType="textCapWords"
+                            android:padding="10dp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_sports_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Sports"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Skills"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:id="@+id/edt_skills"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_back"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:inputType="textEmailAddress"
+                            android:padding="10dp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_skills_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Skills"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Business"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:id="@+id/edt_business"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_back"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:inputType="textPassword"
+                            android:padding="10dp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_business_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Business"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <com.custom.baselibrary.CustomButton
+                        android:id="@+id/btn_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/custom_btn_next"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:paddingLeft="60dp"
+                        android:paddingRight="60dp"
+                        android:text="Submit"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

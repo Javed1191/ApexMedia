@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.custom.baselibrary.CustomButton
+        android:id="@+id/btn_find_talent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_btn_next"
+        android:fontFamily="fonts/OmnesMed.ttf"
+        android:text="Find Talent"
+        android:textColor="#FFFFFF" />
+
+
+    <view
+        android:id="@+id/job_proposla_recycler_view"
+        class="android.support.v7.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+    <com.custom.baselibrary.CustomText
+        android:id="@+id/tv_proposals_not_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="fonts/OmnesMed.ttf"
+        android:text="No job requests"
+        android:visibility="gone" />
+
+</LinearLayout>

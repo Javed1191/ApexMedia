@@ -1,0 +1,360 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ScrollView
+        android:id="@+id/svBatchPreparationEnd"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="8" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_SiteCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Site Code"
+                    android:inputType="number"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="Server Instance"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edtServerInstance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text1"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Server Instance"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="SQL Instance"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_SQLInstance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text2"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="SQL Instance"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="Entity Code"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_EntCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text3"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Entity Code"
+                    android:maxLength="2"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="Handler"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_Handler"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text4"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Handler"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="financial Year"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_FyrCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text5"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="financial Year"
+                    android:maxLength="4"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="User Code"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_UserCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text8"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="User Code"
+                    
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text="abc"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="Location Code"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_LocCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text6"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Location Code"
+                   	android:maxLength="2"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <com.custom.baselibrary.CustomText
+                    android:id="@+id/text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:fontFamily="opensansregular.ttf"
+                    android:gravity="left"
+                    android:text="Interface"
+                    android:textColor="#cccccc"
+                    android:textSize="15sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_Interface"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/text7"
+                    android:background="#40ffffff"
+                    android:fontFamily="opensansregular.ttf"
+                    android:hint="Interface"
+                    
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AFAFAF" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" >
+
+            <Button
+                android:id="@+id/btn_Save"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="opensansregular.ttf"
+                android:text="Save"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="opensansregular.ttf"
+                android:text="Cancel"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <com.custom.baselibrary.CustomText
+            android:id="@+id/txt_LoginStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="opensansregular.ttf"
+            android:gravity="center"
+            android:onClick="onButtonClicker"
+            android:text="Login Status"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

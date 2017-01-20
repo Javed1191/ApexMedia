@@ -1,0 +1,2697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/tv_action_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="fonts/OmnesMed.ttf"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:text="USCIS"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:text="Form I-9"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:text="OMB No. 1615-0047
+Expires 03/31/2016"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:text="Employment Eligibility Verification"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="Department of Homeland Security"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="U.S. Citizenship and Immigration Services"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="Start Here:- "
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="Read instructions carefully before completing this form. The instructions must be available during completion of this form."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="ANTI-DISCRIMINATION NOTICE:- "
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:gravity="center"
+                        android:text="It is illegal to discriminate against work-authorized individuals. Employers CANNOT specify which document(s) they will accept from an employee. The refusal to hire an individual because the documentation presented has a future expiration date may also constitute illegal discrimination."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:text="Section 1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="Employee Information and Attentation"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_last_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Last Name (Family Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:id="@+id/tv_name_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_first_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="First Name (Given Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_middel_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Middel Name (Given Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_other_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Other Name (if any)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_address1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Address (Street Name and Number)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_apt_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Apt Number"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.cCtrlAutoTextView
+                            android:id="@+id/auto_sec1_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="City or Town"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.cCtrlAutoTextView
+                            android:id="@+id/auto_sec1_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="State"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_zip_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Zip Code"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_dob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Date of birth (MM-DD-YY) (See instructions)"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:id="@+id/tv_dob_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Reference no"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_social_sec_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="U.U Social Security Number"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="E-Mail Address"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Phone"
+                            android:inputType="phone"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:id="@+id/rdo_grp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:id="@+id/rdo_btn1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="A Cityzen of the United State" />
+
+                            <RadioButton
+                                android:id="@+id/rdo_btn2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="A Noncityzen of the United State (See instructions)" />
+
+                            <RadioButton
+                                android:id="@+id/rdo_btn3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="A lawful permanent resident(Alien registration number/USCIS Number)" />
+
+                            <com.custom.baselibrary.CustomEditText
+                                android:id="@+id/edt_rdo_btn3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:hint=""
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp"
+                                android:windowSoftInputMode="adjustPan" />
+
+                            <RadioButton
+                                android:id="@+id/rdo_btn4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="An alien authorized to work until expiration date, if applicabale, mm/dd/yyyy" />
+
+                            <com.custom.baselibrary.CustomEditText
+                                android:id="@+id/edt_rdo_btn4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:hint=""
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp"
+                                android:windowSoftInputMode="adjustPan" />
+                            />
+
+                            <com.custom.baselibrary.CustomText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:background="@android:color/transparent"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:text="some aience may write 'N/A' in this field (See instructions)"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp"
+                                android:windowSoftInputMode="adjustPan" />
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="For aliens authorized to work, provide your Alien Registration Number/USCIS Number OR Form I-94 Admission Number:"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_alien_reg_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint=" 1) Alien Registration Number/USCIS Number"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="OR"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_admission_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="2) Form I-94 Admission Number"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="If you obtained your admission number from CBP in connection with your arrival in the United States, include the following:"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_forein_pass_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Foreign Passport Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_country_of_issuance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Country of Issuance:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="Some aliens may write 'N/A' on the Foreign Passport Number and Country of Issuance fields. (See instructions)"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.custom.baselibrary.CustomText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="2dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:text="Signature of Employee:"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.custom.baselibrary.CustomButton
+                                android:id="@+id/btn_choose_file1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/custom_btn_next"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:text="Choose file"
+                                android:textColor="#FFFFFF" />
+
+
+                        </LinearLayout>
+
+                        <com.custom.baselibrary.CustomEditText
+
+                            android:id="@+id/edt_date1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:editable="false"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Date (DD/MM/YY)"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+                    </LinearLayout>
+
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="I attest, under penalty of perjury, that I have assisted in the completion of this form and that to the best of my knowledge the information is true and correct."
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dad8d8"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Preparer and/or Translator Certification(To be completed and signed if Section 1 is prepared by a person other than the employee.)"
+                            android:textColor="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.custom.baselibrary.CustomText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="2dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:text="Signature of Preparer or Translator"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.custom.baselibrary.CustomButton
+                                android:id="@+id/btn_choose_file2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/custom_btn_next"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:text="Choose file"
+                                android:textColor="#FFFFFF" />
+
+
+                        </LinearLayout>
+
+                        <com.custom.baselibrary.CustomEditText
+
+                            android:id="@+id/edt_date2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:editable="false"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Date (DD/MM/YY)"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_last_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Last Name (Family Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_first_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="First Name (Given Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_address2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Address (Street Name and Number)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_city2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="City or Town"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.cCtrlAutoTextView
+                            android:id="@+id/auto_state2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="State"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_zip_code2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Zip Code"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary"
+                        android:gravity="left"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Section 2"
+                            android:textColor="#FFFFFF"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="#ccc"
+                        android:gravity="left"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Employer or Authorized Representative Review and Verification"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="(Employers or their authorized representative must complete and sign Section 2 within 3 business days of the employee's first day of employment. You must physically examine one document from List A OR examine a combination of one document from List B and one document from List C as listed on the 'Lists of Acceptable Documents' on the next page of this form. For each document you review, record the following information: document title, issuing authority, document number, and expiration date, if any.)"
+                            android:textColor="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_sec2_full_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Employee Last Name, First Name and Middle Initial from Section 1:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="List A"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Identity and Employment Authorization"
+                            android:textColor="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_title1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_issuing_athority1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Issuing Authority:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_no1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_exp_date1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date(if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_title2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_issuing_athority2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Issuing Authority:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_no2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_exp_date2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date(if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_title3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_issuing_athority3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Issuing Authority:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_doc_no3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_lista_exp_date3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date(if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="List B"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Identity"
+                            android:textColor="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listb_doc_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listb_issuing_athority"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Issuing Authority:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listb_doc_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listb_exp_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date(if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="List C"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Employment Authorization"
+                            android:textColor="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listc_doc_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listc_issuing_athority"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Issuing Authority:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listc_doc_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_listc_exp_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date(if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="Certification"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="#ccc"
+                        android:gravity="left"
+                        android:orientation="vertical">
+
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="I attest, under penalty of perjury, that (1) I have examined the document(s) presented by the above-named employee, (2) the above-listed document(s) appear to be genuine and to relate to the employee named, and (3) to the best of my knowledge the employee is authorized to work in the United States."
+                            android:textColor="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_emp_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="The employee's first day of employment(mm/dd/yyyy)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Signature of Employer or Authorized Representative"
+                            android:textSize="10sp"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomButton
+                            android:id="@+id/btn_choose_file_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/custom_btn_next"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Choose file"
+                            android:textColor="#FFFFFF" />
+
+                        <ImageView
+                            android:id="@+id/img_sinature_1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/dash_settings_work_tool"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_date_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Date (mm/dd/yyyy)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_title_emp_autho"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Title of Employer or Authorized Representative"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_last_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Last Name (Family Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_first_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="First Name (Given Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_emp_busi_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Employer's Business or Organization Name"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_emp_busi_add"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Employer's Business or Organization Address (Street Number and Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_city3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="City or Town"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.cCtrlAutoTextView
+                            android:id="@+id/auto_state3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="State"
+                            android:inputType="textEmailAddress"
+                            android:padding="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_zip_code4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Zip Code"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="SECTION 3"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="#ccc"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Reverification and Rehires"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="(To be completed and signed by employer or authorized representative.)"
+                            android:textColor="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="A"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_last_name4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="New Name (if applicable) Last Name (Family Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_first_name4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="First Name (Given Name)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_middel_name4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Middle Initial"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="B"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_date_of_rehire"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Date of Rehire (if applicable)(mm/dd/yyyy)"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="C"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="If employee's previous grant of employment authorization has expired, provide the information for the document from List A or List C the employee presented that establishes current employment authorization in the space provided below"
+                            android:textColor="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_c_doc_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Title:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_c_doc_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Document Number:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_c_exp_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Expiration Date (if any)(mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="2dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="I attest, under penalty of perjury, that to the best of my knowledge, this employee is authorized to work in the United States, and if the employee presented document(s), the document(s) I have examined appear to be genuine and to relate to the individual."
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.custom.baselibrary.CustomText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="2dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:text="Signature of Employer or Authorized Representative:"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <com.custom.baselibrary.CustomButton
+                                android:id="@+id/btn_choose_file3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/custom_btn_next"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:text="Choose file"
+                                android:textColor="#FFFFFF" />
+
+                            <ImageView
+                                android:id="@+id/img_sinature3"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/dash_settings_work_tool"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_date3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Date (mm/dd/yyyy):"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_emp_otho_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Print Name of Employer or Authorized Representative:"
+                            android:padding="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/colorPrimary" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal">
+
+                        <com.custom.baselibrary.CustomButton
+                            android:id="@+id/btn_submit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_btn_next"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="SUBMIT"
+                            android:textColor="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomButton
+                            android:id="@+id/btn_skip"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_btn_next"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="SKIP"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.custom.baselibrary.CustomText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="fonts/OmnesMed.ttf"
+        android:inputType="textCapWords"
+        android:text="LOGIN"
+        android:textColor="#0047ab"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/videoViewRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:text="Create Your Account"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                     />
+
+              <!--  <ImageView
+                    android:id="@+id/img_login_fb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/login_fb" />-->
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_fb_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D6EA7"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="LOGIN WITH FACEBOOK"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="First Name"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="First Name"
+                            android:inputType="textCapWords"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_first_name_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter First Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+
+                        <com.custom.baselibrary.CustomEditText
+
+                            android:id="@+id/edt_last_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Last Name"
+                            android:inputType="textCapWords"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_last_name_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Last Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Email"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_email_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Email"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Password"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_password_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter First Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Password"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_re_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Confirm Password"
+                            android:inputType="textPassword"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_re_password_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter First Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Password"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.cCtrlAutoTextView
+                            android:id="@+id/auto_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Country"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_country_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter Country"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/lay_upload_pic"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/register_circle_bak"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:src="@drawable/icon_upload_64" />
+
+                        </LinearLayout>
+
+                        <com.apexmediatechnologies.apexmedia.RoundedImageView
+                            android:id="@+id/img_user_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_upload_64" />
+                        </RelativeLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/chk_policy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/term_condition"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <com.custom.baselibrary.CustomButton
+                        android:id="@+id/btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/custom_btn_next"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="Next"
+                        android:textColor="#FFFFFF" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

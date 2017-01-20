@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../circle_animate_progreess" />
+            <option value="$PROJECT_DIR$/../circularprogressview" />
+            <option value="$PROJECT_DIR$/../customfont" />
+            <option value="$PROJECT_DIR$/../demo" />
+            <option value="$PROJECT_DIR$/../kprogresshud" />
+            <option value="$PROJECT_DIR$/../library" />
+            <option value="$PROJECT_DIR$/../locationgoogleapi" />
+            <option value="$PROJECT_DIR$/../navigationdrawerexample" />
+            <option value="$PROJECT_DIR$/../no_Game1" />
+            <option value="$PROJECT_DIR$/../quickly" />
+            <option value="$PROJECT_DIR$/../recycleviewexample" />
+            <option value="$PROJECT_DIR$/../recycleviewwithtwoview" />
+            <option value="$PROJECT_DIR$/../rippleView" />
+            <option value="$PROJECT_DIR$/../rippleViewExample" />
+            <option value="$PROJECT_DIR$/../snackbarexample" />
+            <option value="$PROJECT_DIR$/../supertoasts" />
+            <option value="$PROJECT_DIR$/../sweet_alert_library" />
+            <option value="$PROJECT_DIR$/../sweet_alert_sample" />
+            <option value="$PROJECT_DIR$/../volleyexample" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

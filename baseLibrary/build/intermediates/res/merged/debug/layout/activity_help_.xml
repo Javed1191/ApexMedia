@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="0.5"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+ 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+          
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/bnnr"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lyt_BatchPrepartion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                  
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_BatchStart1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/new_batch" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_BatchPrepartion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="New Batch"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_BatchStart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                   
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_BatchStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/under_preparation" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_BatchStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Under preparation"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_HourlyProduction"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                 
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_HourlyProduction"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/running_batch" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_HourlyProduction"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Running Batches"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_BatchEnd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                  
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_BatchEnd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/batch_stopped_temporarily" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_BatchEnd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Batch Stopped Temporarily"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_Assignoprtator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                  
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_Oprator"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/batch_completed_successfully" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_oprator"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Batch Completed"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_BatchReport"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                  
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_BatchReport"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/batch_canceled" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_BatchReport"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Batch Canceled"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_ShiftCommunication"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                   
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_ShiftCommunication"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/batch_re_scheduled" />
+
+                    <com.custom.baselibrary.CustomText
+                        android:id="@+id/txt_ShiftCommunication"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:fontFamily="ExoRegular.otf"
+                        android:text="Shift Re-Scheduled"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/my_textfontsize" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_CmpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/company_logo" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/card_produst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardElevation="3dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:id="@+id/lay_job_feed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img_user"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_margin="5dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/menu_retok" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:id="@+id/tv_user_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:textStyle="bold"
+                                    android:text="Vijay Kumar"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <RatingBar
+                                    android:id="@+id/rating_user"
+                                    style="@style/foodRatingBar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:isIndicator="true"
+                                    android:text="Location" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:id="@+id/tv_address"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="India"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15dp" />
+                                <com.custom.baselibrary.CustomText
+                                    android:visibility="gone"
+                                    android:id="@+id/tv_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="India"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15dp" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Hourly Rate "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_hourly_rate"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Hours "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_hour"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Description "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_desc"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Estimated Duration "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_est_duration"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Approach "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_approach"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Skills "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=":"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorPrimary" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_skills"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/colorPrimary"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Bid Id :"
+                                    android:textColor="#FFFFFF" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_bid_id"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Submitted :"
+                                    android:textColor="#FFFFFF" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_submitted"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="Awarded At :"
+                                    android:textColor="#FFFFFF" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/tv_awarded"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=""
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

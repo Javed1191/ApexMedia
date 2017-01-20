@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw320dp-v13\\values-sw320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\src\\main\\res\\values-sw320dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 3,
+                        "startOffset": 190,
+                        "endColumn": 46,
+                        "endOffset": 233
+                    }
+                }
+            }
+        ]
+    }
+]

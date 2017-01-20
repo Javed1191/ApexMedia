@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Custom Spinner List"
+    android:padding="5dp"
+    android:textColor="#000000"
+    android:textSize="18sp" />
+
+<!-- android:id="@android:id/text1" -->

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\help_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\help_.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\splash_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\splash_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\login_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\login_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\user_info_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\user_info_.xml"
+    }
+]

@@ -1,0 +1,55 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 368 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1619196 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 4097 1 512 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 4097 1 512 0 -1
+ciMethod java/lang/Integer numberOfTrailingZeros (I)I 4097 1 7622 0 -1
+ciMethod java/lang/Long numberOfTrailingZeros (J)I 4097 1 14052 0 -1
+ciMethod java/lang/Long bitCount (J)I 4097 1 4601 0 -1
+ciMethod java/util/AbstractList <init> ()V 265 1 196410 0 32
+ciMethod java/util/AbstractCollection <init> ()V 281 1 245723 0 0
+ciMethod java/util/ArrayList <init> ()V 113 1 151971 0 64
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 337 1 707059 0 0
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 337 1 681186 0 544
+ciMethod java/util/ArrayList grow (I)V 65 1 5141 0 544
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1113 1 139 0 0
+ciMethod java/util/ArrayList isEmpty ()Z 4097 1 455995 0 -1
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 15633 1 2297883 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 16457 1 2276042 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 337 1 692679 0 736
+ciMethod java/util/ArrayList add (ILjava/lang/Object;)V 4097 1 14234 0 0
+ciMethod java/util/ArrayList remove (I)Ljava/lang/Object; 4169 1 14023 0 -1
+ciMethod java/util/ArrayList rangeCheck (I)V 13609 1 2296893 0 0
+ciMethod java/util/ArrayList rangeCheckForAdd (I)V 4097 1 14234 0 0
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 4097 1 289212 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 15369 1 1921 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 3081 1 71020 0 -1
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 833 1 58433 0 -1
+ciMethod java/lang/Math max (II)I 217 1 143606 0 -1
+ciMethod java/lang/Math min (II)I 3489 1 37898 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Arrays sort ([III)V 1417 1 400 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 4097 1 11037 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 4097 1 9728 0 -1
+ciMethod java/util/Arrays copyOf ([JI)[J 9785 1 1724 0 0
+ciMethodData java/lang/Object <init> ()V 2 1619196 orig 264 8 30 36 118 0 0 0 0 128 4 47 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 151 197 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet wordIndex (I)I 2049 1 167979 0 0
+ciMethod java/util/BitSet checkInvariants ()V 2057 1 5377 0 32
+ciMethod java/util/BitSet recalculateWordsInUse ()V 4097 681 9698 0 0
+ciMethod java/util/BitSet <init> (I)V 4097 1 10776 0 288
+ciMethod java/util/BitSet initWords (I)V 4097 1 10774 0 0
+ciMethod java/util/BitSet ensureCapacity (I)V 73 1 10474 0 0
+ciMethod java/util/BitSet expandTo (I)V 3121 1 63637 0 0
+ciMethod java/util/BitSet set (I)V 1705 1 39316 0 320
+ciMethod java/util/BitSet clear (I)V 4097 1 9728 0 224
+ciMethod java/util/BitSet get (I)Z 1937 1 14696 0 160
+ciMethod java/util/BitSet nextSetBit (I)I 4145 1 21048 0 256
+ciMethod java/util/BitSet cardinality ()I 4097 524289 43967 0 128
+ciMethod java/util/BitSet clone ()Ljava/lang/Object; 2145 1 52323 0 896
+ciMethod java/util/BitSet trimToSize ()V 0 0 462 0 0
+ciMetho

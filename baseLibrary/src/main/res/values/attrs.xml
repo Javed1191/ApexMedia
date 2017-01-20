@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="cCtrlDateView">
+        <attr name="delimeter" format="string"/>
+        <attr name="fancyText" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="cCtrlAutoTextView">
+        <attr name="DataSourceMethod" format = "string"/>
+        <attr name="DataSourceParams" format = "string"/>
+        <attr name="DataSourceColumn" format = "string"/>
+        <attr name="DataHeader" format = "string"/>
+        <attr name="ShowDropDownOnFocus" format = "boolean"/>
+        <attr name="OnClick" format = "string"/>
+        <attr name="OnItemClick" format = "string"/>
+        <attr name="OnFocusChanged" format = "string"/>
+        <attr name="OnTextChanged" format = "string"/>
+        <attr name="IsAutoTextMandatory" format = "boolean"/>
+        <attr name="IsAutoSelectSingleItem" format = "boolean"/>
+    </declare-styleable>
+    <declare-styleable name = "MultiSelectionSpinner">
+        <attr name="IsMultiSpinnerMandatory" format = "boolean"/>
+        <attr name="OnMultiSpinnerClick" format = "string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomText">
+        <attr name="IsTextMandatory" format = "boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomEditText">
+        <attr name="IsEditTextMandatory" format = "boolean"/>
+        <attr name="EditTextOnGotFocus" format = "string"/>
+        <attr name="EditTextOnLostFocus" format = "string"/>
+        <attr name="EditTextSelectAllOnFocus" format = "boolean"/>
+    </declare-styleable>
+    <declare-styleable name = "CustomButton">
+        <attr name="IsButtonMandatory" format = "boolean"/>
+        <attr name="MandatoryDefaultText" format = "string"/>
+    </declare-styleable>
+    
+        <declare-styleable name="SwitchView">
+        <attr name="background_switch" format="reference" />
+        <attr name="background_act" format="reference" />
+        <attr name="background_inact" format="reference" />
+        <attr name="text_on" format="string" />
+        <attr name="text_off" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_new_login_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_new_login_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\checkbox_row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\checkbox_row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\menu_layout.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\menu_layout.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\reminder_picker.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\reminder_picker.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\user_row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\user_row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_progresscircle.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_progresscircle.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_new_login_screen_updated.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_new_login_screen_updated.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_button.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_button.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\autotextlistviewrow.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\autotextlistviewrow.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash_screen.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_help_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_help_.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_progresshorizontal.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_progresshorizontal.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_button.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supercardtoast_button.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_setting.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\temp_login.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\temp_login.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\row.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_user_info_.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_user_info_.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_setting_new.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_setting_new.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dummy_layout.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\dummy_layout.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\header.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_progresshorizontal.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_progresshorizontal.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\datetimepicker.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\datetimepicker.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_progresscircle.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\superactivitytoast_progresscircle.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\spinner_rows.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\spinner_rows.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supertoast.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\exploded-aar\\ApexMedia\\supertoasts\\unspecified\\res\\layout\\supertoast.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\test.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_email_setting.xml",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\baseLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_email_setting.xml"
+    }
+]

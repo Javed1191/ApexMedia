@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Practice_Project.iml" filepath="$PROJECT_DIR$/../Practice_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLibrary.iml" filepath="$PROJECT_DIR$/baseLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../circle_animate_progreess/circle_animate_progreess.iml" filepath="$PROJECT_DIR$/../circle_animate_progreess/circle_animate_progreess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../circularprogressview/circularprogressview.iml" filepath="$PROJECT_DIR$/../circularprogressview/circularprogressview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../customfont/customfont.iml" filepath="$PROJECT_DIR$/../customfont/customfont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/demo.iml" filepath="$PROJECT_DIR$/../demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kprogresshud/kprogresshud.iml" filepath="$PROJECT_DIR$/../kprogresshud/kprogresshud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/library.iml" filepath="$PROJECT_DIR$/../library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../locationgoogleapi/locationgoogleapi.iml" filepath="$PROJECT_DIR$/../locationgoogleapi/locationgoogleapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../navigationdrawerexample/navigationdrawerexample.iml" filepath="$PROJECT_DIR$/../navigationdrawerexample/navigationdrawerexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../no_Game1/no_Game1.iml" filepath="$PROJECT_DIR$/../no_Game1/no_Game1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quickly/quickly.iml" filepath="$PROJECT_DIR$/../quickly/quickly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../recycleviewexample/recycleviewexample.iml" filepath="$PROJECT_DIR$/../recycleviewexample/recycleviewexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../recycleviewwithtwoview/recycleviewwithtwoview.iml" filepath="$PROJECT_DIR$/../recycleviewwithtwoview/recycleviewwithtwoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rippleView/rippleView.iml" filepath="$PROJECT_DIR$/../rippleView/rippleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rippleViewExample/rippleViewExample.iml" filepath="$PROJECT_DIR$/../rippleViewExample/rippleViewExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../snackbarexample/snackbarexample.iml" filepath="$PROJECT_DIR$/../snackbarexample/snackbarexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../supertoasts/supertoasts.iml" filepath="$PROJECT_DIR$/../supertoasts/supertoasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sweet_alert_library/sweet_alert_library.iml" filepath="$PROJECT_DIR$/../sweet_alert_library/sweet_alert_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sweet_alert_sample/sweet_alert_sample.iml" filepath="$PROJECT_DIR$/../sweet_alert_sample/sweet_alert_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../volleyexample/volleyexample.iml" filepath="$PROJECT_DIR$/../volleyexample/volleyexample.iml" />
+    </modules>
+  </component>
+</project>

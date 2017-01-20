@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_emsys_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.custom.baselibrary.CustomText
+            android:id="@+id/txt_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="opensansregular.ttf"
+            android:gravity="center"
+            android:text="LOG IN"
+            android:textColor="#01539c"
+            android:textSize="42dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/txt_cust_Name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="7dp"
+                        android:layout_weight="4"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="ExoRegular.otf"
+                        android:hint="Enter Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:textColor="#33B5E5"
+                        android:textColorHint="#AFAFAF"
+                        android:textSize="@dimen/txt_textfontsize" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/txt_cust_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="7dp"
+                         />
+
+                    <com.custom.baselibrary.CustomEditText
+                        android:id="@+id/edt_Password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_weight="4"
+                        android:background="#40ffffff"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="ExoRegular.otf"
+                        android:hint="Enter Passward"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:maxLength="10"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:singleLine="true"
+                        android:textColor="#33B5E5"
+                        android:textColorHint="#AFAFAF"
+                        android:textSize="@dimen/txt_textfontsize" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_Login_Submit"
+                style="@style/btnStyleBlue"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2.5"
+                android:fontFamily="opensansregular.ttf"
+                android:text="SIGN IN"
+                android:textColor="#e0f7fa"
+                android:textSize="@dimen/my_textfontsize" />
+
+            <Button
+                android:id="@+id/btn_setting"
+                style="@style/btnStyleBlue"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2.5"
+                android:fontFamily="opensansregular.ttf"
+                android:text="SETTING"
+                android:textColor="#e0f7fa"
+                android:textSize="@dimen/my_textfontsize" />
+        </LinearLayout>
+
+        <com.custom.baselibrary.CustomText
+            android:id="@+id/txt_LoginStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="opensansregular.ttf"
+            android:gravity="center"
+            android:onClick="onButtonClicker"
+            android:text="Login Status"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

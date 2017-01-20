@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.custom.baselibrary.CustomText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#50335f99"
+            android:fontFamily="ExoRegular.otf"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Details"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Employee Code"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_Empecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Department"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpDptName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Designation"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpDesgName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Work Contact no"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpWorkMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Personal Contact no"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpPersonalMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Reporting"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpReportsToName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+       
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.custom.baselibrary.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="Email_ID"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" />
+
+            <com.custom.baselibrary.CustomText
+                android:id="@+id/txt_EmpWorkEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="ExoRegular.otf"
+                android:gravity="left"
+                android:padding="20dp"
+                android:text="TEXT"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt_textfontsize" />
+        </LinearLayout>
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

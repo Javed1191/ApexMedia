@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_textfontsize">22sp</dimen>
+    <dimen name="txt_textfontsize">22sp</dimen>
+    <dimen name="txt_textfontsize1">19sp</dimen>
+</resources>
