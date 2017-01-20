@@ -67,6 +67,7 @@ public class FindTalent
     String contractor_pic;
     String str_skills;
 
+
     public FindTalent(String userId, String contractor_name, String contractor_country, String overView,
                       String contractor_pic, String hourly_rates, String str_skills)
     {
