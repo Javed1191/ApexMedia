@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/blue_splash1"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -11,7 +11,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="40dp"
-        android:src="@drawable/apex_logo_splash" />
+        android:src="@drawable/splash_logo" />
 
 
     <ScrollView

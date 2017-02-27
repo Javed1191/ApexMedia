@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context="com.oneaxcess.RegistrationActivity">
+    android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/view"
@@ -74,7 +73,7 @@
                     android:text="(Rev. February 2014) \n Department of the Treasury
 Internal Revenue Service"
                     android:textColor="@color/colorPrimary"
-                     />
+                    android:textSize="10sp" />
 
             </LinearLayout>
 
@@ -107,6 +106,7 @@ Internal Revenue Service"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -121,7 +121,7 @@ Internal Revenue Service"
                         android:gravity="center"
                         android:text="For use by individuals.Entitiesmust use Form W-8BEN-E."
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -142,12 +142,13 @@ Internal Revenue Service"
                         android:gravity="center"
                         android:text="Information about Form W-8BEN and itsseparate instructions isat www.irs.gov/formw8ben."
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -162,7 +163,7 @@ Internal Revenue Service"
                         android:gravity="center"
                         android:text="Give thisform to the withholding agent or payer. Do not send to the IRS."
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -253,7 +254,7 @@ Internal Revenue Service"
                         android:fontFamily="fonts/OmnesMed.ttf"
                         android:text="You are NOTan individual...........................................................................W-8BEN-E"
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -274,7 +275,7 @@ Internal Revenue Service"
                         android:fontFamily="fonts/OmnesMed.ttf"
                         android:text="You area U.S. citizen or other U.S. person, including a resident alien individual...........................................................W-9"
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -296,7 +297,7 @@ Internal Revenue Service"
                         android:text="You area beneficial owner claiming that income iseffectively connected with the conduct of trade or businesswithin the
 U.S (other than personal services)...................................................................................................................................................................................W-8ECI"
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -317,7 +318,7 @@ U.S (other than personal services)..............................................
                         android:fontFamily="fonts/OmnesMed.ttf"
                         android:text="You area beneficial owner who is receiving compensation for personal services performed in the United States.......................................................8233 or W-4"
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -338,15 +339,15 @@ U.S (other than personal services)..............................................
                         android:fontFamily="fonts/OmnesMed.ttf"
                         android:text="A person acting asan intermediary.................................................................................................................................................................................W-8IMY"
                         android:textColor="@color/colorPrimary"
-                         />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:background="@color/colorPrimary"
                 android:gravity="left"
                 android:orientation="vertical">
@@ -358,7 +359,7 @@ U.S (other than personal services)..............................................
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Part I - Identification of Beneficial Owner (see instructions)"
                     android:textColor="#FFFFFF"
-                     />
+                    android:textSize="10sp" />
             </LinearLayout>
 
 
@@ -400,7 +401,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -417,7 +418,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Name"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -450,7 +451,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <ImageView
@@ -476,7 +477,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Country"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -504,7 +505,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -521,7 +522,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Address"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -553,7 +554,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.cCtrlAutoTextView
@@ -567,7 +568,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.CustomEditText
@@ -581,7 +582,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
                         </LinearLayout>
 
@@ -600,7 +601,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter City"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -612,7 +613,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter State"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -624,7 +625,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter Postal Code"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
                         </LinearLayout>
 
@@ -658,7 +659,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <ImageView
@@ -684,7 +685,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Select Country"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -712,7 +713,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -729,7 +730,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Email"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -753,7 +754,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="City or town, state or province. include postal code where appropriate"
                             android:textColor="@color/colorPrimary"
-                            />
+                            android:textSize="12sp" />
 
 
                         <LinearLayout
@@ -773,7 +774,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.cCtrlAutoTextView
@@ -787,7 +788,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.CustomEditText
@@ -801,7 +802,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
                         </LinearLayout>
 
@@ -820,7 +821,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter City"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -832,7 +833,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter State"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -844,7 +845,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter Postal Code"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
                         </LinearLayout>
 
@@ -879,7 +880,7 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <ImageView
@@ -905,7 +906,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Select Country"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -932,7 +933,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -949,7 +950,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Email"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -976,7 +977,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -993,7 +994,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Foreign Tax"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -1020,7 +1021,7 @@ U.S (other than personal services)..............................................
                             android:padding="5dp"
                             android:paddingTop="5dp"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -1037,7 +1038,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Reference no"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
@@ -1064,7 +1065,7 @@ U.S (other than personal services)..............................................
                             android:paddingTop="5dp"
                             android:text="Date of birth (MM-DD-YY) (See instructions)"
                             android:textColor="@color/colorPrimary"
-                           
+                            android:textSize="12sp"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -1081,15 +1082,15 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Enter Reference no"
                             android:textColor="@color/colorPrimaryDark"
-                           
+                            android:textSize="12sp"
                             android:visibility="gone" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:background="@color/colorPrimary"
                         android:gravity="left"
                         android:orientation="vertical">
@@ -1101,7 +1102,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Part II - Claim of Tax Treaty Benefits (for chapter 3 purposes only) (see instructions)"
                             android:textColor="#FFFFFF"
-                             />
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1116,21 +1117,47 @@ U.S (other than personal services)..............................................
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:gravity="center"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
 
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/bullet" />
 
-                            <com.custom.baselibrary.CustomText
+
+
+                            <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
-                                android:fontFamily="fonts/OmnesMed.ttf"
-                                android:text="I certify that the beneficial owner is a resident of  within the meaning of ....................... the income tax treaty between the United Statesand that country."
-                                android:textColor="@color/colorPrimary"
-                                 />
+                                android:orientation="vertical">
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text="9  I certify that the benificial owner is resident of "
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12sp" />
+
+                                <com.custom.baselibrary.CustomEditText
+                                    android:id="@+id/edt_residence"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:hint=""
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12sp"
+                                    android:windowSoftInputMode="adjustPan" />
+
+                                <com.custom.baselibrary.CustomText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="fonts/OmnesMed.ttf"
+                                    android:text=" within the meaning of the income tax treaty between the United Statesand that country."
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12sp" />
+
+                            </LinearLayout>
+
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -1140,26 +1167,130 @@ U.S (other than personal services)..............................................
                             android:gravity="center"
                             android:orientation="horizontal">
 
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/bullet" />
 
-                            <com.custom.baselibrary.CustomText
+
+                            <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
-                                android:fontFamily="fonts/OmnesMed.ttf"
-                                android:text="Special ratesandconditions(if applicable—see instructions):The beneficial owner isclaiming the provisions of Article................  of the treaty identified on line 9 above to claim a........................  % rate of withholding on (specify type of income):..........................................Explain the reasons the beneficial owner meets the terms of the treaty article:............................................................."
-                                android:textColor="@color/colorPrimary"
-                                 />
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:orientation="vertical">
+
+                                    <com.custom.baselibrary.CustomText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:text="10  Special ratesandconditions(if applicable—see instructions):The beneficial owner is claiming the provisions of Article"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp" />
+
+                                    <com.custom.baselibrary.CustomEditText
+                                        android:id="@+id/edt_article"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:hint=""
+                                        android:includeFontPadding="false"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp"
+                                        android:windowSoftInputMode="adjustPan" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <com.custom.baselibrary.CustomText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:text="of the treaty identified on line 9 above to claim a"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp" />
+
+                                    <com.custom.baselibrary.CustomEditText
+                                        android:id="@+id/edt_claim"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:hint=""
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp"
+                                        android:windowSoftInputMode="adjustPan" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <com.custom.baselibrary.CustomText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:text="% rate of withholding on (specify type of income):"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp" />
+
+                                    <com.custom.baselibrary.CustomEditText
+                                        android:id="@+id/edt_withholding"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:hint=""
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp"
+                                        android:windowSoftInputMode="adjustPan" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <com.custom.baselibrary.CustomText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:text="Explain the reasons the beneficial owner meets the terms of the treaty article:"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp" />
+
+                                    <com.custom.baselibrary.CustomEditText
+                                        android:id="@+id/edt_tready"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/OmnesMed.ttf"
+                                        android:hint=""
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12sp"
+                                        android:windowSoftInputMode="adjustPan" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:background="@color/colorPrimary"
                         android:gravity="left"
                         android:orientation="vertical">
@@ -1171,7 +1302,7 @@ U.S (other than personal services)..............................................
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Part III - Identification of Beneficial Owner (see instructions)"
                             android:textColor="#FFFFFF"
-                             />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1195,7 +1326,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Under penalties of perjury, I declare that I have examined the information on this form and to the best of my knowledge and belief it is true, correct, and complete. I further certify under penalties of perjury that:"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1217,7 +1348,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Iam the individual that is the beneficial owner (or am authorized tosign for the individual that is the beneficial owner) of all the income to which this form relates or am using this form to document myself asan individual that isan owner or account holder of a foreign financial institution,"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1239,7 +1370,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="The person named on line 1 of this form is not a U.S. person,"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1261,7 +1392,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="The income to which this form relates is:"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1281,7 +1412,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="(A) not effectively connected with the conduct of a trade or businessin the United States"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
 
                             <com.custom.baselibrary.CustomText
                                 android:layout_width="match_parent"
@@ -1291,7 +1422,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="(B) effectively connected but is not subject to tax under an applicable income tax treaty, or"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
 
                             <com.custom.baselibrary.CustomText
                                 android:layout_width="match_parent"
@@ -1301,7 +1432,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="(C) the partner’sshare of a partnership's effectively connected income, "
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1323,7 +1454,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="The person named on line 1 of this form isa resident of the treaty country listed on line 9 of the form (if any) within the meaning of the income tax treaty between the United Statesand that country, and"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1345,7 +1476,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="For broker transactions or barter exchanges, the beneficial owner isan exempt foreign person as defined in the instructions."
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1363,7 +1494,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Furthermore, Iauthorize this form to be provided to any withholding agent that hascontrol, receipt, or custody of the income of which Iam the beneficial owner or any withholding agent that can disburse or make payments of the income of which Iam the beneficial owner. I agree that I will submit a new form within 30 days if any certification made on thisform becomes incorrect."
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -1399,7 +1530,7 @@ U.S (other than personal services)..............................................
                                     android:fontFamily="fonts/OmnesMed.ttf"
                                     android:paddingLeft="20dp"
                                     android:paddingRight="20dp"
-                                    android:text="Choose file"
+                                    android:text="Choose signature file"
                                     android:textColor="#FFFFFF" />
 
                                 <ImageView
@@ -1421,7 +1552,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="No file choosen"
                                 android:textColor="@color/colorPrimary"
-                                />
+                                android:textSize="12sp" />
 
                             <com.custom.baselibrary.CustomText
                                 android:layout_width="wrap_content"
@@ -1431,7 +1562,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Sigature of benificial owener (or individual authorized tosign for benificial owener)"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
 
@@ -1447,7 +1578,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="(if form is not signed by beneficial owener)"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -1479,9 +1610,9 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
-                                android:text="Date (DD/MM/YY)"
+                                android:hint="Date (DD/MM/YY)"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.CustomEditText
@@ -1495,22 +1626,10 @@ U.S (other than personal services)..............................................
                                 android:inputType="textEmailAddress"
                                 android:padding="5dp"
                                 android:textColor="@color/colorPrimary"
-                               
+                                android:textSize="12sp"
                                 android:windowSoftInputMode="adjustPan" />
 
-                            <com.custom.baselibrary.CustomEditText
-                                android:id="@+id/edt_capacity_acting"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="5dp"
-                                android:layout_weight="1"
-                                android:fontFamily="fonts/OmnesMed.ttf"
-                                android:hint="Capacity in which acting"
-                                android:inputType="textEmailAddress"
-                                android:padding="5dp"
-                                android:textColor="@color/colorPrimary"
-                               
-                                android:windowSoftInputMode="adjustPan" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -1528,7 +1647,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter City"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -1540,7 +1659,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter State"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
 
                             <com.custom.baselibrary.CustomText
@@ -1552,7 +1671,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="Enter Postal Code"
                                 android:textColor="@color/colorPrimaryDark"
-                               
+                                android:textSize="12sp"
                                 android:visibility="gone" />
                         </LinearLayout>
 
@@ -1560,7 +1679,20 @@ U.S (other than personal services)..............................................
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
+
+                            <com.custom.baselibrary.CustomEditText
+                                android:id="@+id/edt_capacity_acting"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="fonts/OmnesMed.ttf"
+                                android:hint="Capacity in which acting"
+                                android:inputType="textEmailAddress"
+                                android:padding="5dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp"
+                                android:windowSoftInputMode="adjustPan" />
 
                             <com.custom.baselibrary.CustomText
                                 android:layout_width="wrap_content"
@@ -1568,7 +1700,7 @@ U.S (other than personal services)..............................................
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="(if form is not signed by beneficial owener)"
                                 android:textColor="@color/colorPrimary"
-                                 />
+                                android:textSize="10sp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -1582,37 +1714,41 @@ U.S (other than personal services)..............................................
                     android:layout_height="0dp"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    >
+                    android:layout_weight="1">
 
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal">
 
                         <com.custom.baselibrary.CustomButton
                             android:id="@+id/btn_submit"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_weight="1"
                             android:background="@drawable/custom_btn_next"
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="SUBMIT"
                             android:textColor="#FFFFFF" />
 
                         <com.custom.baselibrary.CustomButton
-                            android:visibility="gone"
                             android:id="@+id/btn_skip"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
+                            android:layout_weight="1"
                             android:background="@drawable/custom_btn_next"
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="SKIP"
-                            android:textColor="#FFFFFF" />
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
 
 
-
+                    </LinearLayout>
 
 
                 </RelativeLayout>

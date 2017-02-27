@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.oneaxcess.RegistrationActivity">
+    >
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/view"
@@ -49,7 +49,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -64,13 +64,13 @@
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Create Your Proposal"
                     android:textColor="@color/colorPrimary"
-
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <com.custom.baselibrary.CustomText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Don't include contact info [?]"
                     android:textColor="@color/colorPrimary" />
@@ -104,12 +104,10 @@
                     android:background="@android:color/transparent"
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:hint="Describe your relevent experience and qualifications. *"
-                    android:paddingBottom="3dp"
                     android:inputType="textCapWords"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
-
-                    android:windowSoftInputMode="adjustPan" />
+                    />
 
                 <View
                     android:layout_width="match_parent"
@@ -120,7 +118,7 @@
                     android:id="@+id/tv_first_name_error"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusableInTouchMode="true"
+
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Enter First Name"
                     android:textColor="@color/colorPrimaryDark"
@@ -135,7 +133,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -149,18 +147,16 @@
                     android:visibility="gone" />
 
                 <com.custom.baselibrary.CustomEditText
+                    android:inputType="textCapWords"
                     android:id="@+id/edt_approach"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:hint="Outline your approachto the job, or ask for more info. *"
-                    android:paddingBottom="3dp"
-                    android:inputType="textCapWords"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
-
-                    android:windowSoftInputMode="adjustPan" />
+                     />
 
                 <View
                     android:layout_width="match_parent"
@@ -170,7 +166,7 @@
                 <com.custom.baselibrary.CustomText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusableInTouchMode="true"
+
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Enter First Name"
                     android:textColor="@color/colorPrimaryDark"
@@ -185,7 +181,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -196,19 +192,20 @@
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Cost and timing"
                     android:textColor="@color/colorPrimary"
-
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/lay_my_earnings"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -229,10 +226,9 @@
                     android:background="@android:color/transparent"
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:hint="My earnings in ( Doller )"
-                    android:inputType="numberDecimal"
+                    android:inputType="number"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
-
                     android:windowSoftInputMode="adjustPan" />
 
 
@@ -262,7 +258,7 @@
                 <com.custom.baselibrary.CustomText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusableInTouchMode="true"
+
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Enter First Name"
                     android:textColor="@color/colorPrimaryDark"
@@ -278,7 +274,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -302,7 +298,6 @@
                     android:inputType="numberDecimal"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
-
                     android:windowSoftInputMode="adjustPan" />
 
 
@@ -332,7 +327,7 @@
                 <com.custom.baselibrary.CustomText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusableInTouchMode="true"
+
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Enter First Name"
                     android:textColor="@color/colorPrimaryDark"
@@ -349,7 +344,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -372,7 +367,6 @@
                     android:hint="Estimated duration [?]"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
-
                     android:inputType="numberDecimal"
                     android:windowSoftInputMode="adjustPan" />
 
@@ -402,7 +396,7 @@
                 <com.custom.baselibrary.CustomText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusableInTouchMode="true"
+
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Enter First Name"
                     android:textColor="@color/colorPrimaryDark"
@@ -418,7 +412,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -444,7 +438,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -455,7 +449,7 @@
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Work View Payment Protection"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <com.custom.baselibrary.CustomText
@@ -475,7 +469,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:focusableInTouchMode="true"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
@@ -487,7 +481,7 @@
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:text="Attachment"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
 
@@ -516,9 +510,10 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:orientation="horizontal">
 
@@ -541,9 +536,10 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:orientation="horizontal">
 

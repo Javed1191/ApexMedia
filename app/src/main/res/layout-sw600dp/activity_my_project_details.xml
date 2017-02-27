@@ -51,14 +51,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="10dp">
+                android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    >
 
                     <ProgressBar
                         android:id="@+id/prog_job_progress"
@@ -332,32 +333,32 @@
 
                 <LinearLayout
                     android:layout_marginTop="30dp"
+                    android:gravity="right|bottom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="right|bottom"
                     android:orientation="horizontal">
 
                     <com.custom.baselibrary.CustomText
+                        android:padding="5dp"
                         android:id="@+id/tv_set_status"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="fonts/OmnesMed.ttf"
-                        android:padding="5dp"
                         android:text="Set Job Proposal Status"
                         android:textColor="@color/colorPrimaryDark" />
 
                     <com.custom.baselibrary.CustomText
+                        android:padding="5dp"
                         android:id="@+id/tv_dispute"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="fonts/OmnesMed.ttf"
-                        android:padding="5dp"
                         android:text="Dispute"
                         android:textColor="@color/colorPrimaryDark" />
 
-                </LinearLayout>
+                    </LinearLayout>
 
                 <com.custom.baselibrary.CustomButton
                     android:id="@+id/btn_view_milestone"

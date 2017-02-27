@@ -78,7 +78,8 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="fonts/OmnesMed.ttf"
                                 android:text="India"
-                                android:textColor="@color/colorPrimary" />
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15dp" />
 
 
                         </LinearLayout>

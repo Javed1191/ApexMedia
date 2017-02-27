@@ -56,11 +56,11 @@
         "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon_dark_share.png"
     },
     {
-        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\icon_dark_undo.png",
-        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon_dark_undo.png"
-    },
-    {
         "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\icon_light_share.png",
         "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon_light_share.png"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\icon_dark_undo.png",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\supertoasts\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon_dark_undo.png"
     }
 ]

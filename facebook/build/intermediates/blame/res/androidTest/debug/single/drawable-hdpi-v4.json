@@ -32,20 +32,20 @@
         "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_button_icon.png"
     },
     {
-        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
-        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
-    },
-    {
         "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
         "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
     },
     {
-        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
-        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
         "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
         "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
     {
         "merged": "F:\\SuperNova-Emoji-master\\ApexMedia\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",

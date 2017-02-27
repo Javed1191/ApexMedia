@@ -5,7 +5,8 @@ public class Application_Constants
 
 	/*https://key4deal.com/apex/public/api?keyword=post_job*/
 	//public static String Main_URL = "http://development.eweblabs.in/apex/public/api?";
-	public static String Main_URL = "https://key4deal.com/apex/public/api?";
+	//public static String Main_URL = "https://key4deal.com/apex/public/api?";
+	public static String Main_URL = "https://99prosolution.com/apex/public/api?";
 	public static String VENUES_IMAGE_URL = "http://www.1axcess.com/web/uploads/venue/thumbs/";
 	public static String EVENTS_IMAGE_URL = "http://www.1axcess.com/web/uploads/event/thumbs/";
 	public static String BLOG_IMAGE_URL = "http://www.1axcess.com/web/uploads/post/";

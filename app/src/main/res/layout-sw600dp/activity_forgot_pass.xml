@@ -40,7 +40,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/apex_launcher" />
+        android:src="@drawable/apex_logo_splash" />
 
 
     <ScrollView
@@ -75,7 +75,7 @@
                         android:layout_marginTop="3dp"
                         android:fontFamily="fonts/OmnesMed.ttf"
                         android:text="Forgot your password?"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
 
@@ -123,7 +123,6 @@
                                 android:hint="Email Id"
                                 android:inputType="textEmailAddress"
                                 android:padding="10dp"
-                                android:text="singhanil221@gmail.com"
                                 android:textColor="#FFFFFF"
                                 android:textColorHint="#FFFFFF"
                                 android:textCursorDrawable="@drawable/cursor_color"
@@ -156,7 +155,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:orientation="horizontal">
 

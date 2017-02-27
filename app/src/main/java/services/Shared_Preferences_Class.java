@@ -25,6 +25,7 @@ public class Shared_Preferences_Class
 	public static final String IS_TAX_FORM_FILLED = "is_tax_form_filled";
 	public static final String IS_PSYCHOMETRIC = "is_psychometric";
 	public static final String FCM_ID = "fcm_id";
+	public static final String NOTIFICATION_DATA = "notification_data";
 	public static final String NOTIFICATION_COUNT = "notification_count";
 
 	//To store boolean in shared preferences for if the device is registered to not

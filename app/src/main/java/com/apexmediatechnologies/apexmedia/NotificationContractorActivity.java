@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -60,7 +61,7 @@ public class NotificationContractorActivity extends AppCompatActivity
     RelativeLayout notificationCount1;
     public TextView badge_notification_1;
     public RelativeLayout relative_layout_item_count;
-    String notification_count="";
+    String notification_count="",job_id="",category_id="",screen="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -123,12 +124,105 @@ public class NotificationContractorActivity extends AppCompatActivity
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(getResources().getColor(R.color.colorPrimary));
         }
+/*
+        String notification = Shared_Preferences_Class.readString(getApplicationContext(),Shared_Preferences_Class.NOTIFICATION_DATA,"");
+        Toast.makeText(this, notification, Toast.LENGTH_SHORT).show();
+        Intent intent = getIntent();
+        if(intent.getExtras()!=null)
+        {
+            String menu = intent.getStringExtra("menu");
+
+            for (String key : getIntent().getExtras().keySet())
+            {
+                String value = getIntent().getExtras().getString(key);
+
+                Toast.makeText(this, value, Toast.LENGTH_SHORT).show();
+                Log.d("APEX", "Key: " + key + " Value: " + value);
+
+            }
+
+            Toast.makeText(this, menu, Toast.LENGTH_SHORT).show();
+        }*/
+        if (getIntent().getExtras() != null)
+        {
+
+            if(getIntent().getExtras().getString("menu")!=null)
+            {
+                job_id = getIntent().getExtras().getString("job_id");
+                category_id = getIntent().getExtras().getString("category_id");
+                screen = getIntent().getExtras().getString("screen");
+
+                Toast.makeText(this, "Job_id: " + job_id, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "category_id: " + category_id, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "screen: " + screen, Toast.LENGTH_SHORT).show();
+
+            }
+            else
+            {
+                job_id = getIntent().getExtras().getString("job_id");
+                category_id = getIntent().getExtras().getString("category_id");
+                screen = getIntent().getExtras().getString("screen");
+
+
+
+                Toast.makeText(this, "Back Job_id: " + job_id, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Back category_id: " + category_id, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Back screen: " + screen, Toast.LENGTH_SHORT).show();
+
+               /* String valuea = getIntent().getExtras().getString("job_id");
+
+                Toast.makeText(this, "job_id "+ valuea, Toast.LENGTH_SHORT).show();
+
+                for (String key : getIntent().getExtras().keySet())
+                {
+                    String value = getIntent().getExtras().getString(key);
+
+                    Toast.makeText(this, value, Toast.LENGTH_SHORT).show();
+                    Log.d("APEX", "Key: " + key + " Value: " + value);
+
+              *//*  if(value.equalsIgnoreCase("Notification"))
+                {
+                    break;
+                }*//*
+                }*/
+            }
+
+
+        }
+
 
         getNotifications(userId);
 
 
     }
 
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+       /* if (getIntent().getExtras() != null)
+        {
+
+           *//* String valuea = getIntent().getExtras().getString("menu");
+
+            Toast.makeText(this, "Before "+ valuea, Toast.LENGTH_SHORT).show();*//*
+
+            for (String key : getIntent().getExtras().keySet())
+            {
+                String value = getIntent().getExtras().getString(key);
+
+                Toast.makeText(this, value, Toast.LENGTH_SHORT).show();
+                Log.d("APEX", "Key: " + key + " Value: " + value);
+
+               *//* if(value.equalsIgnoreCase("Notification"))
+                {
+                    break;
+                }*//*
+            }
+        }*/
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu)

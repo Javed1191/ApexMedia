@@ -63,10 +63,18 @@ public class TaxFormWebActivity extends AppCompatActivity
     private String jobId,fromUserId,type,project,toUserId,userId,user_country;
     private String strMyMessages = Application_Constants.Main_URL+"keyword=askAdminDirectly";;
     WebView mWebView;
-    String strTaxFormUSAUrl = "http://development.eweblabs.in/apex/public/taxform/usaapi?type=mobile&user_id=";;
-    String strTaxFormRegularUrl = "http://development.eweblabs.in/apex/public/taxform/indiaapi?type=mobile&user_id=";
+    /*String strTaxFormUSAUrl = "http://development.eweblabs.in/apex/public/taxform/usaapi?type=mobile&user_id=";;
+    String strTaxFormRegularUrl = "http://development.eweblabs.in/apex/public/taxform/indiaapi?type=mobile&user_id=";*/
+    /*String strTaxFormUSAUrl = "https://key4deal.com/apex/public/taxform/usaapi?type=mobile&user_id=";;
+    String strTaxFormRegularUrl = "https://key4deal.com/apex/public/taxform/indiaapi?type=mobile&user_id=";*/
+
+    String strTaxFormUSAUrl = "https://99prosolution.com/apex/public/taxform/usaapi?type=mobile&user_id=";;
+    String strTaxFormRegularUrl = "https://99prosolution.com/apex/public/taxform/indiaapi?type=mobile&user_id=";
+
     String str_call_tax_form_url="";
-    String strTaxFormReturnUrl = "http://development.eweblabs.in/apex/public/dashboard/index";
+    ///String strTaxFormReturnUrl = "http://development.eweblabs.in/apex/public/dashboard/index";
+    String strTaxFormReturnUrl = "https://99prosolution.com/apex/public/dashboard/index";
+
     private ValueCallback<Uri> mUploadMessage;
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;

@@ -1,5 +1,6 @@
 package adapter;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,8 +14,15 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.apexmediatechnologies.apexmedia.OnPayClickListener;
+import com.apexmediatechnologies.apexmedia.OnUploadClickListener;
+import com.apexmediatechnologies.apexmedia.PaymentActivity;
 import com.apexmediatechnologies.apexmedia.Payments;
 import com.apexmediatechnologies.apexmedia.R;
+import com.stripe.android.Stripe;
+import com.stripe.android.TokenCallback;
+import com.stripe.android.model.Card;
+import com.stripe.android.model.Token;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -41,6 +49,7 @@ public class EmployerPaymentAdapter extends RecyclerView.Adapter<EmployerPayment
     private String siteUserID;
     private Utility utility;
     private String strViewInvoice = Application_Constants.Main_URL+"keyword=view_invoice";
+    private ProgressDialog progressDialog;
 
     public EmployerPaymentAdapter(Context context, List<Payments> viewMilestonesList) {
         this.viewMilestonesList = viewMilestonesList;
@@ -70,7 +79,6 @@ public class EmployerPaymentAdapter extends RecyclerView.Adapter<EmployerPayment
     public void onBindViewHolder(final CustomViewHolder customViewHolder, int i) {
         final Payments viewMilestones = viewMilestonesList.get(i);
         // position = i;
-
 
         //Setting text view title
         customViewHolder.tv_amount.setText(viewMilestones.getAmount());
@@ -112,6 +120,31 @@ public class EmployerPaymentAdapter extends RecyclerView.Adapter<EmployerPayment
             }
         });
 
+        customViewHolder.btn_pay.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                CustomViewHolder holder = (CustomViewHolder) v.getTag();
+                int position = holder.getPosition();
+
+                Payments jobFeeds = viewMilestonesList.get(position);
+/*
+                String str_like_count = jobFeeds.getTokLike();
+                String str_is_like = jobFeeds.getIsTokLike();
+                String str_tok_id = jobFeeds.getTokId();
+                int int_tok_like = Integer.parseInt(str_like_count);
+
+                Intent intent = new Intent(mContext, JobDetailProposalActivity.class);
+                intent.putExtra("jobId",jobFeeds.getJobId());
+                mContext.startActivity(intent);*/
+
+
+
+               // makePayment();
+
+            }
+        });
+
 
 
 
@@ -128,6 +161,48 @@ public class EmployerPaymentAdapter extends RecyclerView.Adapter<EmployerPayment
         };
     }
 
+    public void makePayment()
+    {
+        try
+        {
+            progressDialog = new ProgressDialog(mContext);
+            progressDialog.setMessage("Loading Please Wait...");
+            progressDialog.setTitle("Stripe Payment");
+            progressDialog.show();
+
+            Card card = new Card("4242424242424242", 12, 2018, "123");
+
+            Stripe stripe = new Stripe("pk_test_4NOV1wac5v7D6phpb5irGACu");
+            stripe.createToken(
+                    card,
+                    new TokenCallback() {
+                        public void onSuccess(Token token)
+                        {
+                            // Send token to your server
+                            Toast.makeText(mContext, "Success", Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+
+                          /* tok = token;
+                           new StripeCharge(token.getId()).execute();*/
+                        }
+                        public void onError(Exception error) {
+                          /* // Show localized error message
+                           Toast.makeText(PaymentActivity.this,
+                                   error.getMessage(),
+                                   Toast.LENGTH_LONG
+                           ).show();*/
+                            Toast.makeText(mContext, error.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                        }
+                    }
+            );
+
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
 
     @Override
     public int getItemCount()

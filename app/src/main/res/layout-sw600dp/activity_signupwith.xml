@@ -26,9 +26,9 @@
         android:layout_marginTop="20dp"
         android:fontFamily="fonts/OmnesMed.ttf"
         android:gravity="center"
-        android:text="Create an account for Redum nonuumes ad nam. Nan sintsalutandi"
+        android:text="Create your account"
         android:textColor="#FFFFFF"
-         />
+        android:textSize="12sp" />
 
 
     <LinearLayout

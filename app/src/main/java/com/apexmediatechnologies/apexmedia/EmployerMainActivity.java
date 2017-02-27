@@ -27,7 +27,7 @@ public class EmployerMainActivity extends AppCompatActivity
 
     private LinearLayout lay_my_job,lay_post_jobs,lay_home,lay_my_projects,lay_profile,lay_payments,lay_settings,lay_faq,
             lay_contact_support,lay_message,lay_switch_ac,lay_change_pass,lay_logout,lay_bank_account,lay_job_awarded,
-            lay_job_request,lay_send_audio,lay_notification;
+            lay_job_request,lay_send_audio,lay_notification,lay_ask_admin;
     public NavigationView navigationView;
     public  DrawerLayout drawer;
     @Override
@@ -483,6 +483,19 @@ public class EmployerMainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        lay_ask_admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                if (drawer.isDrawerOpen(GravityCompat.START)) {
+                    drawer.closeDrawer(GravityCompat.START);
+                }
+                Intent intent = new Intent(EmployerMainActivity.this, AskAdminActivity.class);
+                intent.putExtra("jobId","0");
+                intent.putExtra("project","Ask Admin Directly");
+                startActivity(intent);
+            }
+        });
 
 
     }
@@ -506,6 +519,7 @@ public class EmployerMainActivity extends AppCompatActivity
         lay_job_request = (LinearLayout) findViewById(R.id.lay_job_request);
         lay_send_audio = (LinearLayout) findViewById(R.id.lay_send_audio);
         lay_notification = (LinearLayout) findViewById(R.id.lay_notification);
+        lay_ask_admin = (LinearLayout) findViewById(R.id.lay_ask_admin);
 
 
     }

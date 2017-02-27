@@ -16,9 +16,12 @@ import android.util.Log;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import services.Shared_Preferences_Class;
+
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 /**
  * Created by Belal on 5/27/2016.
@@ -27,7 +30,7 @@ import services.Shared_Preferences_Class;
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "MyFirebaseMsgService";
-    private  String str_user_type="", click_action="";
+    private  String str_user_type="", click_action="",job_id="",category_id="",screen="";
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
@@ -41,12 +44,23 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         String str = remoteMessage.getNotification().getBody();
         click_action = remoteMessage.getNotification().getClickAction();
+       // str_data = (HashMap<String, String>) remoteMessage.getData();
+      // Shared_Preferences_Class.writeString(this,Shared_Preferences_Class.NOTIFICATION_DATA,click_action);
 
         for (Map.Entry<String, String> entry : remoteMessage.getData().entrySet()) {
             String key = entry.getKey();
             String value = entry.getValue();
             Log.d(TAG, "key, " + key + " value " + value);
         }
+
+        if (remoteMessage.getData().size() > 0)
+        {
+            Log.d(TAG, "Message data payload: " + remoteMessage.getData());
+            job_id = remoteMessage.getData().get("job_id");
+            category_id = remoteMessage.getData().get("category_id");
+            screen = remoteMessage.getData().get("screen");
+        }
+
 
 
 
@@ -66,8 +80,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             if(click_action.equalsIgnoreCase("job_detail"))
             {
                 Intent intent = new Intent(click_action);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+               intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intent.putExtra("menu","Notification");
+                intent.putExtra("job_id",job_id);
+                intent.putExtra("category_id",category_id);
+                intent.putExtra("screen",screen);
                 PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent,
                         PendingIntent.FLAG_ONE_SHOT);
 
@@ -120,4 +137,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         }
 
     }
+
+
+
 }

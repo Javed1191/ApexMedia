@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context="com.oneaxcess.RegistrationActivity">
+    android:orientation="vertical">
 
     <com.custom.baselibrary.CustomText
         android:layout_width="wrap_content"
@@ -21,24 +20,25 @@
         android:visibility="gone" />
 
     <VideoView
-        android:visibility="gone"
         android:id="@+id/videoViewRelative"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
 
 
     <ScrollView
-        android:background="#40000000"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#40000000"
         android:fadeScrollbars="false"
         android:fillViewport="true"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
+
 
         <LinearLayout
 
@@ -46,6 +46,47 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:text="Create Your Account"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                     />
+
+              <!--  <ImageView
+                    android:id="@+id/img_login_fb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/login_fb" />-->
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_fb_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D6EA7"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="LOGIN WITH FACEBOOK"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
 
 
             <LinearLayout
@@ -84,7 +125,6 @@
                             android:visibility="gone" />
 
                         <com.custom.baselibrary.CustomEditText
-                            android:textCursorDrawable="@drawable/cursor_color"
                             android:id="@+id/edt_first_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -97,6 +137,7 @@
                             android:paddingTop="10dp"
                             android:textColor="#FFFFFF"
                             android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -115,7 +156,6 @@
                             android:textSize="12sp"
                             android:visibility="gone" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -129,17 +169,9 @@
                         android:gravity="center_vertical"
                         android:orientation="vertical">
 
-                        <com.custom.baselibrary.CustomText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
-                            android:fontFamily="fonts/OmnesMed.ttf"
-                            android:text="Last Name"
-                            android:textColor="#FFFFFF"
-                            android:visibility="gone" />
 
                         <com.custom.baselibrary.CustomEditText
-                            android:textCursorDrawable="@drawable/cursor_color"
+
                             android:id="@+id/edt_last_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -152,7 +184,9 @@
                             android:paddingTop="10dp"
                             android:textColor="#FFFFFF"
                             android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
                             android:windowSoftInputMode="adjustPan" />
+
 
                         <View
                             android:layout_width="match_parent"
@@ -193,7 +227,6 @@
                             android:visibility="gone" />
 
                         <com.custom.baselibrary.CustomEditText
-                            android:textCursorDrawable="@drawable/cursor_color"
                             android:id="@+id/edt_email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -206,6 +239,7 @@
                             android:paddingTop="10dp"
                             android:textColor="#FFFFFF"
                             android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -248,7 +282,6 @@
                             android:visibility="gone" />
 
                         <com.custom.baselibrary.CustomEditText
-                            android:textCursorDrawable="@drawable/cursor_color"
                             android:id="@+id/edt_password"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -261,6 +294,7 @@
                             android:paddingTop="10dp"
                             android:textColor="#FFFFFF"
                             android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -293,6 +327,61 @@
                         android:orientation="vertical">
 
                         <com.custom.baselibrary.CustomText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Password"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone" />
+
+                        <com.custom.baselibrary.CustomEditText
+                            android:id="@+id/edt_re_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:hint="Confirm Password"
+                            android:inputType="textPassword"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:windowSoftInputMode="adjustPan" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#FFFFFF" />
+
+                        <com.custom.baselibrary.CustomText
+
+                            android:id="@+id/tv_re_password_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="fonts/OmnesMed.ttf"
+                            android:text="Enter First Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <com.custom.baselibrary.CustomText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="3dp"
@@ -302,7 +391,6 @@
                             android:visibility="gone" />
 
                         <com.custom.baselibrary.cCtrlAutoTextView
-                            android:textCursorDrawable="@drawable/cursor_color"
                             android:id="@+id/auto_country"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -314,6 +402,7 @@
                             android:paddingTop="10dp"
                             android:textColor="#FFFFFF"
                             android:textColorHint="#FFFFFF"
+                            android:textCursorDrawable="@drawable/cursor_color"
                             android:windowSoftInputMode="adjustPan" />
 
                         <View
@@ -334,6 +423,44 @@
 
                     </LinearLayout>
 
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/lay_upload_pic"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/register_circle_bak"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:src="@drawable/icon_upload_64" />
+
+                        </LinearLayout>
+
+                        <com.apexmediatechnologies.apexmedia.RoundedImageView
+                            android:id="@+id/img_user_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_upload_64" />
+                        </RelativeLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/chk_policy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/term_condition"
+                        android:textColor="#ffffff" />
 
                 </LinearLayout>
 

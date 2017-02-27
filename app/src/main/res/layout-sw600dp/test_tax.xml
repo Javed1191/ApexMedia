@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <com.custom.baselibrary.CustomText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:fontFamily="fonts/OmnesMed.ttf"
+            android:text="Part II - Claim of Tax Treaty Benefits (for chapter 3 purposes only) (see instructions)"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="2"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:text="9  I certify that the benificial owner is resident of "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+                <com.custom.baselibrary.CustomEditText
+                    android:id="@+id/edt_residence"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:hint=""
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp"
+                    android:windowSoftInputMode="adjustPan" />
+
+                <com.custom.baselibrary.CustomText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="fonts/OmnesMed.ttf"
+                    android:text=" within the meaning of the income tax treaty between the United Statesand that country."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="10  Special ratesandconditions(if applicable—see instructions):The beneficial owner is claiming the provisions of Article"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomEditText
+                        android:id="@+id/edt_article"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:hint=""
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:windowSoftInputMode="adjustPan" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="of the treaty identified on line 9 above to claim a"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomEditText
+                        android:id="@+id/edt_claim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:hint=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:windowSoftInputMode="adjustPan" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="% rate of withholding on (specify type of income):"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomEditText
+                        android:id="@+id/edt_withholding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:hint=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:windowSoftInputMode="adjustPan" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.custom.baselibrary.CustomText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:text="Explain the reasons the beneficial owner meets the terms of the treaty article:"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />
+
+                    <com.custom.baselibrary.CustomEditText
+                        android:id="@+id/edt_tready"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="fonts/OmnesMed.ttf"
+                        android:hint=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:windowSoftInputMode="adjustPan" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

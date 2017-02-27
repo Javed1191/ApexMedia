@@ -110,7 +110,7 @@
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Start: Fixed"
                             android:textColor="@color/colorPrimary"
-                             />
+                            />
 
                     </LinearLayout>
 
@@ -133,7 +133,7 @@
                             android:fontFamily="fonts/OmnesMed.ttf"
                             android:text="Budget: 20,000"
                             android:textColor="@color/colorPrimary"
-                             />
+                            />
 
                     </LinearLayout>
 

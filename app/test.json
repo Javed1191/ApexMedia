@@ -1,238 +1,190 @@
 {
   "Result": "true",
-  "Message": "All Message",
-  "Job_Name": "Testing 123",
-  "allMessages": [
+  "Message": "Notifications",
+  "total_notifications": "75",
+  "all_notifications": [
     {
-      "id": "25",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "Congratulations! New job awareded.",
-      "Type": "Coming"
+      "notification_id": "804",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "199",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:23 AM"
     },
     {
-      "id": "26",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "thi is acceptance",
-      "Type": "Coming"
+      "notification_id": "796",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "198",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:23 AM"
     },
     {
-      "id": "27",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "Thank you for awarding job to me.",
-      "Type": "Sent"
+      "notification_id": "788",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "197",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:11 AM"
     },
     {
-      "id": "28",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "ok start the wrok",
-      "Type": "Coming"
+      "notification_id": "780",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "196",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:06 AM"
     },
     {
-      "id": "29",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "please start the wrok",
-      "Type": "Coming"
+      "notification_id": "772",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "195",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:05 AM"
     },
     {
-      "id": "43",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "hello sir",
-      "Type": "Sent"
+      "notification_id": "764",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "194",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:02 AM"
     },
     {
-      "id": "44",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "hi",
-      "Type": "Sent"
+      "notification_id": "756",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "193",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 06:00 AM"
     },
     {
-      "id": "45",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "testing msg",
-      "Type": "Sent"
+      "notification_id": "748",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "192",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:57 AM"
     },
     {
-      "id": "51",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "hhshs",
-      "Type": "Sent"
+      "notification_id": "740",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "191",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:55 AM"
     },
     {
-      "id": "60",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "hfhhdjhd",
-      "Type": "Sent"
+      "notification_id": "732",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "190",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:52 AM"
     },
     {
-      "id": "61",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "Jfjjfnf",
-      "Type": "Sent"
+      "notification_id": "724",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "189",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:50 AM"
     },
     {
-      "id": "62",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "xbx",
-      "Type": "Sent"
+      "notification_id": "716",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "188",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:49 AM"
     },
     {
-      "id": "67",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "hello sir this is testing",
-      "Type": "Sent"
+      "notification_id": "708",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "187",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 27, 2017 05:48 AM"
     },
     {
-      "id": "68",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "test",
-      "Type": "Sent"
+      "notification_id": "700",
+      "title": "Apex Notification",
+      "message": "A new job has been posted, click the view detail",
+      "job_id": "186",
+      "proposal_id": "0",
+      "from_user_id": "0",
+      "to_user_id": "0",
+      "read": "unread",
+      "screen": "job_detail",
+      "module": "Contractor",
+      "date_time": "Jan 26, 2017 01:01 AM"
     },
     {
-      "id": "69",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "testing",
-      "Type": "Sent"
-    },
-    {
-      "id": "70",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "adbsfbbeffbsgbsg",
-      "Type": "Sent"
-    },
-    {
-      "id": "81",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "hello",
-      "Type": "Coming"
-    },
-    {
-      "id": "83",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "86",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "testing",
-      "Type": "Coming"
-    },
-    {
-      "id": "87",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "hi",
-      "Type": "Coming"
-    },
-    {
-      "id": "89",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "how are you sir?",
-      "Type": "Coming"
-    },
-    {
-      "id": "91",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "jdjjd",
-      "Type": "Coming"
-    },
-    {
-      "id": "107",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "hiii",
-      "Type": "Coming"
-    },
-    {
-      "id": "109",
-      "fromUser": "103",
-      "toUser": "115",
-      "message": "Yes",
-      "Type": "Sent"
-    },
-    {
-      "id": "110",
-      "fromUser": "103",
-      "toUser": "103",
-      "message": "test",
-      "Type": "Coming"
-    },
-    {
-      "id": "119",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "120",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "121",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "122",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "123",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "124",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "This is developement mode",
-      "Type": "Coming"
-    },
-    {
-      "id": "126",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "hi",
-      "Type": "Coming"
-    },
-    {
-      "id": "127",
-      "fromUser": "115",
-      "toUser": "103",
-      "message": "hello",
-      "Type": "Coming"
-    }
-  ]
-}
+      "notification_id": "692",
+      "titleF

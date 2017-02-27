@@ -316,7 +316,7 @@
                     android:layout_marginTop="30dp"
                     android:background="@drawable/custom_btn_next"
                     android:fontFamily="fonts/OmnesMed.ttf"
-                    android:text="Send Your Praposal"
+                    android:text="Send Your Proposal"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
         </android.support.v7.widget.CardView>

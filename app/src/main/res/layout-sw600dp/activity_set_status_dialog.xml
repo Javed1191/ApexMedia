@@ -51,13 +51,13 @@
                 android:orientation="vertical">
 
                 <com.custom.baselibrary.CustomText
-                    android:textColor="#000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:fontFamily="fonts/OmnesMed.ttf"
                     android:gravity="center"
                     android:padding="5dp"
+                    android:textColor="#000"
                     android:text="Job proposal status"
                     android:textSize="15sp" />
 
@@ -76,7 +76,7 @@
                     android:id="@+id/skbar_job_status"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:max="10"
+                    android:max="100"
 
                     />
 

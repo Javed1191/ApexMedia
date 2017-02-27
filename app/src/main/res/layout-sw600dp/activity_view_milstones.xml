@@ -47,14 +47,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
-            android:background="@drawable/custom_btn_add"
+            android:background="@drawable/custom_text_replay"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:text="Add Miletone"
+            android:text="Add Milestone"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 
+
+
     <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -65,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:fontFamily="fonts/OmnesMed.ttf"
-            android:text="Amount"
+            android:text="Amounts"
             android:textColor="@color/colorPrimary"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -74,7 +77,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:fontFamily="fonts/OmnesMed.ttf"
             android:text="Status"
             android:textColor="@color/colorPrimary"
@@ -86,8 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="fonts/OmnesMed.ttf"
-            android:gravity="center"
-            android:text="Payment Date"
+            android:text="Milestone Date"
             android:textColor="@color/colorPrimary"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -97,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="50dp"
             android:fontFamily="fonts/OmnesMed.ttf"
-            android:text="Pay now"
+            android:text="Invoice"
             android:textColor="@color/colorPrimary"
             android:textSize="12sp"
             android:textStyle="bold" />
